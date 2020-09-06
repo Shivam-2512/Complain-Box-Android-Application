@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9099"
+        android:text="History of ANAND"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The British rule came to an end on 15/8/1947 and India became independent. 
+The new government integrated the royal states into the state of Bombay.
+ Kheda district came into existence on 1/8/1949. Thereafter, some changes were made in the villages of certain talukas and villages were identified for different
+ talukas of the district from 15/10/1950. The district of Kheda consists of Khambhat, Petalad, Borsad, Anand, Nadiad, Matar, Mahemdavad, Kapadvanj, Thasara and 
+Balashinor talukas. State Govt. has formed six new districts from 1/10/97 and Anand has been carved out as a separate district from Kheda. 
+The district of Anand comprises 8 talukas i.e. Umareth, Petalad, Sojitra, Borsad, Anklav, Khambhat and Tarapur.
+Anand is also popularly known as Charotar. Some of the villages of Borsad, Petalad and Anand talukas are located in this region."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9099"
+        android:text="Charotar Region"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The region stretching form the bank of river Mahi near Vasad up to the bank of river Vatrak near Mahemdabad is popularly known as Charotar."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9099"
+        android:text="Karamsad"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+       <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Karamsad is located between 22.30 north latitude and 72.54 east longitude. It is situated on Anand - Khambhat railway line and Anand - Sojitra National Highway.It is the land of late Shri Vitthalbhai Patel and Iron man Shri 
+                      Sardar Vallabhbhai Patel the great freedom fighters and statesmen of India. Karamsad hascontributed significantly during the freedom movement. Its name has been inscribed in golden letters in the history of India."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9099"
+        android:text="Bochasan"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+       <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Located between 22.24o north latitude and 72.50o east longitude Bochasan is a station located on Bhadaran-Nadiad and Valsad-Kathana railway line.It is believed to have been come into existence in Samvat 1352. It has derived its name from Bucheshwar Mahadev.During the National Movement this village had played a leading role. A camp was set-up here during the struggle against Haidiavera. The villages had resolved not to pay the tax and lived in other village by erecting shamiyana. Vallabh Vidyalaya is a well known institute for imparting basic education (training) in Charotar. "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

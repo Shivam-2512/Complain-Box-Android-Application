@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.KITE.compaintbox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cmp2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.KITE.compaintbox.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Send_Complaint"
+            android:label="@string/title_activity_send__complaint" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Activity_services"
+            android:label="@string/title_activity_activity_services" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Activity_about_app"
+            android:label="@string/title_activity_activity_about_app" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Historycity"
+            android:label="@string/title_activity_activity_about_app" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Activity_help"
+            android:label="@string/title_activity_activity_help" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Activity_faqs"
+            android:label="@string/title_activity_activity_faqs" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Activity_response"
+            android:label="@string/title_activity_activity_response" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Complaint_active"
+            android:label="@string/title_activity_complaint_active" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Complaint_pending"
+            android:label="@string/title_activity_complaint_panding" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Complaint_cancel"
+            android:label="@string/title_activity_complaint_cancel" >
+        </activity>
+        <activity
+            android:name="com.KITE.compaintbox.Complaint_close"
+            android:label="@string/title_activity_complaint_close" >
+        </activity>
+    </application>
+
+</manifest>
